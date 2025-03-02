@@ -2,295 +2,246 @@
   "pikachu": {
     "nom": "Pikachu",
     "image": "imagePikachu1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "pikachuIncroyable": {
     "nom": "Pikachu",
     "image": "imagePikachu2",
-    "rareté": "ultraLégendaire",
-    "foil": null
+    "rareté": "ultraLégendaire"
   },
   "evoli": {
     "nom": "Evoli",
     "image": "imageEvoli1",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "evoliShiny": {
     "nom": "Evoli",
     "image": "imageEvoli2",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "dracaufeu": {
     "nom": "Dracaufeu",
     "image": "imageDracaufeu1",
-    "rareté": "épique",
-    "foil": null
+    "rareté": "épique"
   },
   "dracaufeuShiny": {
     "nom": "Dracaufeu",
     "image": "imageDracaufeu2",
-    "rareté": "légendaire",
-    "foil": null
+    "rareté": "légendaire"
   },
   "mewtwo": {
     "nom": "Mewtwo",
     "image": "imageMewtwo1",
-    "rareté": "mythique",
-    "foil": null
+    "rareté": "mythique"
   },
   "mewtwoOmbre": {
     "nom": "Mewtwo",
     "image": "imageMewtwo2",
-    "rareté": "ultraLégendaire",
-    "foil": null
+    "rareté": "ultraLégendaire"
   },
   "ronflex": {
     "nom": "Ronflex",
     "image": "imageRonflex1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "ronflexDormeur": {
     "nom": "Ronflex",
     "image": "imageRonflex2",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "ronflexColosse": {
     "nom": "Ronflex",
     "image": "imageRonflex3",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "bulbizarre": {
     "nom": "Bulbizarre",
     "image": "imageBulbizarre1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "herbizarre": {
     "nom": "Herbizarre",
     "image": "imageBulbizarre2",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "florizarre": {
     "nom": "Florizarre",
     "image": "imageBulbizarre3",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "carapuce": {
     "nom": "Carapuce",
     "image": "imageCarapuce1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "carabaffe": {
     "nom": "Carabaffe",
     "image": "imageCarabaffe2",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "tortank": {
     "nom": "Tortank",
     "image": "imageTortank3",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "salameche": {
     "nom": "Salamèche",
     "image": "imageSalameche1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "reptincel": {
     "nom": "Reptincel",
     "image": "imageReptincel2",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "dracaufeuAlt": {
     "nom": "Dracaufeu",
     "image": "imageDracaufeu3",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "rondoudou": {
     "nom": "Rondoudou",
     "image": "imageRondoudou1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "mystherbe": {
     "nom": "Mystherbe",
     "image": "imageMystherbe1",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "psykokwak": {
     "nom": "Psykokwak",
     "image": "imagePsykokwak1",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "fantominus": {
     "nom": "Fantominus",
     "image": "imageFantominus1",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "magicarpe": {
     "nom": "Magicarpe",
     "image": "imageMagicarpe1",
-    "rareté": "légendaire",
-    "foil": null
+    "rareté": "légendaire"
   },
   "ferosinge": {
     "nom": "Férosinge",
     "image": "imageFerosinge1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "colossinge": {
     "nom": "Colossinge",
     "image": "imageColossinge1",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "caninos": {
     "nom": "Caninos",
     "image": "imageCaninos1",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "arcanin": {
     "nom": "Arcanin",
     "image": "imageArcanin1",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "ptitard": {
     "nom": "Ptitard",
     "image": "imagePtitard1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "tetarte": {
     "nom": "Têtarte",
     "image": "imageTetarte1",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "tartard": {
     "nom": "Tartard",
     "image": "imageTartard1",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "abra": {
     "nom": "Abra",
     "image": "imageAbra2",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "kadabra": {
     "nom": "Kadabra",
     "image": "imageKadabra1",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "alakazam": {
     "nom": "Alakazam",
     "image": "imageAlakazam1",
-    "rareté": "épique",
-    "foil": null
+    "rareté": "épique"
   },
   "machoc": {
     "nom": "Machoc",
     "image": "imageMachoc1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "machopeur": {
     "nom": "Machopeur",
     "image": "imageMachopeur1",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "mackogneur": {
     "nom": "Mackogneur",
     "image": "imageMackogneur1",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "spectrum": {
     "nom": "Spectrum",
     "image": "imageSpectrum1",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "ectoplasma": {
     "nom": "Ectoplasma",
     "image": "imageEctoplasma1",
-    "rareté": "épique",
-    "foil": null
+    "rareté": "épique"
   },
   "onix": {
     "nom": "Onix",
     "image": "imageOnix1",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "soporifik": {
     "nom": "Soporifik",
     "image": "imageSoporifik1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "hypnomade": {
     "nom": "Hypnomade",
     "image": "imageHypnomade1",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "krabby": {
     "nom": "Krabby",
     "image": "imageKrabby1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "krabboss": {
     "nom": "Krabboss",
     "image": "imageKrabboss1",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "voltorbe": {
     "nom": "Voltorbe",
     "image": "imageVoltorbe1",
-    "rareté": "peuCommune",
-    "foil": null
+    "rareté": "peuCommune"
   },
   "electrode": {
     "nom": "Électrode",
     "image": "imageElectrode1",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   },
   "noeunoeuf": {
     "nom": "Noeunoeuf",
     "image": "imageNoeunoeuf1",
-    "rareté": "commune",
-    "foil": null
+    "rareté": "commune"
   },
   "noadkoko": {
     "nom": "Noadkoko",
     "image": "imageNoadkoko1",
-    "rareté": "rare",
-    "foil": null
+    "rareté": "rare"
   }
 }
