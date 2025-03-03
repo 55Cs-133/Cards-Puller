@@ -1,0 +1,9 @@
+{
+  "commune": 40,
+  "peu-commune": 25,
+  "rare": 15,
+  "épique": 10,
+  "légendaire": 5,
+  "mythique": 3,
+  "ultra-légendaire": 2
+}
