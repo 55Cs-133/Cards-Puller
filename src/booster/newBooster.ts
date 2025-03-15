@@ -31,7 +31,6 @@ import { CardSchema, SettingsSchema, Card, Settings, Foil, RarityRates } from '.
 const parsedSettings = SettingsSchema.parse(rawSettings.booster);
 const settings: Settings = parsedSettings;
 
-// Extraction dynamique des types d'éléments
 export const foil: Foil | null = settings.foil ?? null;
 
 export const rarityRates: Record<string, RarityRates> = Object.entries(settings)
@@ -53,7 +52,6 @@ export const fixedCards: Record<string, number> = Object.entries(settings)
     return acc;
   }, {} as Record<string, number>);
 
-// Vérification des données extraites
 console.log('Foil:', foil);
 console.log('Rarity Rates:', rarityRates);
 console.log('Fixed Cards:', fixedCards);
