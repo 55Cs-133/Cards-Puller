@@ -1,0 +1,45 @@
+{
+  "booster": {
+    "common": 6,
+    "uncommon": 3,
+    "rare": 1,
+    "superRare": 5,
+    "eleventh": {
+      "rare": 50,
+      "superRare": 50
+    },
+    "twelfth": {
+      "superRare": 50,
+      "mythic":50
+    },
+    "thirteenth": {
+      "mythic":60,
+      "superRare":35,
+      "uncommon": 5
+    },
+    "14": {
+      "mythic":5,
+      "superRare":90,
+      "uncommon": 5
+    },
+    "15": {
+      "mythic":14,
+      "superRare":16,
+      "uncommon": 70
+    },
+    "16": {
+      "mythic":60,
+      "superRare":39,
+      "uncommon": 1
+    },
+    "17": {
+      "mythic":65,
+      "superRare":25,
+      "uncommon": 10
+    },
+    "foil": {
+      "percentage": 20,
+      "max": 4
+    }
+  }
+}

@@ -1,247 +1,602 @@
-{
-  "pikachu": {
-    "nom": "Pikachu",
-    "image": "imagePikachu1",
-    "rareté": "commune"
+[
+  {
+    "id": "kelmaeeo2",
+    "rarity": "mythic",
+    "foil": true
   },
-  "pikachuIncroyable": {
-    "nom": "Pikachu",
-    "image": "imagePikachu2",
-    "rareté": "ultra-légendaire"
+  {
+    "id": "78jm2ruxe",
+    "rarity": "mythic",
+    "foil": true
   },
-  "evoli": {
-    "nom": "Evoli",
-    "image": "imageEvoli1",
-    "rareté": "peu-commune"
+  {
+    "id": "1k8cxfgna",
+    "rarity": "mythic",
+    "foil": true
   },
-  "evoliShiny": {
-    "nom": "Evoli",
-    "image": "imageEvoli2",
-    "rareté": "rare"
+  {
+    "id": "4ybuhn34b",
+    "rarity": "mythic",
+    "foil": true
   },
-  "dracaufeu": {
-    "nom": "Dracaufeu",
-    "image": "imageDracaufeu1",
-    "rareté": "épique"
+  {
+    "id": "lmsgpwgd5",
+    "rarity": "mythic",
+    "foil": true
   },
-  "dracaufeuShiny": {
-    "nom": "Dracaufeu",
-    "image": "imageDracaufeu2",
-    "rareté": "légendaire"
+  {
+    "id": "ea6ed27is",
+    "rarity": "superRare",
+    "foil": true
   },
-  "mewtwo": {
-    "nom": "Mewtwo",
-    "image": "imageMewtwo1",
-    "rareté": "mythique"
+  {
+    "id": "qn3je48pf",
+    "rarity": "superRare",
+    "foil": true
   },
-  "mewtwoOmbre": {
-    "nom": "Mewtwo",
-    "image": "imageMewtwo2",
-    "rareté": "ultra-légendaire"
+  {
+    "id": "ngpr8r6bs",
+    "rarity": "superRare",
+    "foil": true
   },
-  "ronflex": {
-    "nom": "Ronflex",
-    "image": "imageRonflex1",
-    "rareté": "commune"
+  {
+    "id": "ks61q3jh8",
+    "rarity": "superRare",
+    "foil": true
   },
-  "ronflexDormeur": {
-    "nom": "Ronflex",
-    "image": "imageRonflex2",
-    "rareté": "peu-commune"
+  {
+    "id": "nr7p0hogt",
+    "rarity": "superRare",
+    "foil": true
   },
-  "ronflexColosse": {
-    "nom": "Ronflex",
-    "image": "imageRonflex3",
-    "rareté": "rare"
+  {
+    "id": "0sf06pxa8",
+    "rarity": "superRare",
+    "foil": true
   },
-  "bulbizarre": {
-    "nom": "Bulbizarre",
-    "image": "imageBulbizarre1",
-    "rareté": "commune"
+  {
+    "id": "xdm9affkk",
+    "rarity": "superRare",
+    "foil": true
   },
-  "herbizarre": {
-    "nom": "Herbizarre",
-    "image": "imageBulbizarre2",
-    "rareté": "peu-commune"
+  {
+    "id": "aain4fe2z",
+    "rarity": "superRare",
+    "foil": true
   },
-  "florizarre": {
-    "nom": "Florizarre",
-    "image": "imageBulbizarre3",
-    "rareté": "rare"
+  {
+    "id": "e74629kmv",
+    "rarity": "superRare",
+    "foil": true
   },
-  "carapuce": {
-    "nom": "Carapuce",
-    "image": "imageCarapuce1",
-    "rareté": "commune"
+  {
+    "id": "6tghez40m",
+    "rarity": "superRare",
+    "foil": true
   },
-  "carabaffe": {
-    "nom": "Carabaffe",
-    "image": "imageCarabaffe2",
-    "rareté": "peu-commune"
+  {
+    "id": "be8uo7e6a",
+    "rarity": "rare",
+    "foil": null
   },
-  "tortank": {
-    "nom": "Tortank",
-    "image": "imageTortank3",
-    "rareté": "rare"
+  {
+    "id": "efzz3qjoi",
+    "rarity": "rare",
+    "foil": null
   },
-  "salameche": {
-    "nom": "Salamèche",
-    "image": "imageSalameche1",
-    "rareté": "commune"
+  {
+    "id": "9xjtbvmls",
+    "rarity": "rare",
+    "foil": null
   },
-  "reptincel": {
-    "nom": "Reptincel",
-    "image": "imageReptincel2",
-    "rareté": "peu-commune"
+  {
+    "id": "bots0wgt3",
+    "rarity": "rare",
+    "foil": null
   },
-  "dracaufeuAlt": {
-    "nom": "Dracaufeu",
-    "image": "imageDracaufeu3",
-    "rareté": "rare"
+  {
+    "id": "gbkicd8rf",
+    "rarity": "rare",
+    "foil": null
   },
-  "rondoudou": {
-    "nom": "Rondoudou",
-    "image": "imageRondoudou1",
-    "rareté": "commune"
+  {
+    "id": "c03hhww07",
+    "rarity": "rare",
+    "foil": null
   },
-  "mystherbe": {
-    "nom": "Mystherbe",
-    "image": "imageMystherbe1",
-    "rareté": "peu-commune"
+  {
+    "id": "lt6f9h3h5",
+    "rarity": "rare",
+    "foil": null
   },
-  "psykokwak": {
-    "nom": "Psykokwak",
-    "image": "imagePsykokwak1",
-    "rareté": "peu-commune"
+  {
+    "id": "4dr9ynegy",
+    "rarity": "rare",
+    "foil": null
   },
-  "fantominus": {
-    "nom": "Fantominus",
-    "image": "imageFantominus1",
-    "rareté": "rare"
+  {
+    "id": "7w7oe0ucz",
+    "rarity": "rare",
+    "foil": null
   },
-  "magicarpe": {
-    "nom": "Magicarpe",
-    "image": "imageMagicarpe1",
-    "rareté": "légendaire"
+  {
+    "id": "km8q3jrfs",
+    "rarity": "rare",
+    "foil": null
   },
-  "ferosinge": {
-    "nom": "Férosinge",
-    "image": "imageFerosinge1",
-    "rareté": "commune"
+  {
+    "id": "iwlch693q",
+    "rarity": "rare",
+    "foil": null
   },
-  "colossinge": {
-    "nom": "Colossinge",
-    "image": "imageColossinge1",
-    "rareté": "peu-commune"
+  {
+    "id": "3va1eeak1",
+    "rarity": "rare",
+    "foil": null
   },
-  "caninos": {
-    "nom": "Caninos",
-    "image": "imageCaninos1",
-    "rareté": "peu-commune"
+  {
+    "id": "a460a7duf",
+    "rarity": "rare",
+    "foil": null
   },
-  "arcanin": {
-    "nom": "Arcanin",
-    "image": "imageArcanin1",
-    "rareté": "rare"
+  {
+    "id": "h4u19upb2",
+    "rarity": "rare",
+    "foil": null
   },
-  "ptitard": {
-    "nom": "Ptitard",
-    "image": "imagePtitard1",
-    "rareté": "commune"
+  {
+    "id": "7kyesoedq",
+    "rarity": "rare",
+    "foil": null
   },
-  "tetarte": {
-    "nom": "Têtarte",
-    "image": "imageTetarte1",
-    "rareté": "peu-commune"
+  {
+    "id": "11po6nwmc",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "tartard": {
-    "nom": "Tartard",
-    "image": "imageTartard1",
-    "rareté": "rare"
+  {
+    "id": "e5avq8hni",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "abra": {
-    "nom": "Abra",
-    "image": "imageAbra2",
-    "rareté": "peu-commune"
+  {
+    "id": "8se75lxdm",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "kadabra": {
-    "nom": "Kadabra",
-    "image": "imageKadabra1",
-    "rareté": "rare"
+  {
+    "id": "rubtnmh8u",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "alakazam": {
-    "nom": "Alakazam",
-    "image": "imageAlakazam1",
-    "rareté": "épique"
+  {
+    "id": "nsu5q8fot",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "machoc": {
-    "nom": "Machoc",
-    "image": "imageMachoc1",
-    "rareté": "commune"
+  {
+    "id": "xxrs7zjog",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "machopeur": {
-    "nom": "Machopeur",
-    "image": "imageMachopeur1",
-    "rareté": "peu-commune"
+  {
+    "id": "d7vklvkoc",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "mackogneur": {
-    "nom": "Mackogneur",
-    "image": "imageMackogneur1",
-    "rareté": "rare"
+  {
+    "id": "mfyf90v4m",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "spectrum": {
-    "nom": "Spectrum",
-    "image": "imageSpectrum1",
-    "rareté": "rare"
+  {
+    "id": "im0k8h08o",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "ectoplasma": {
-    "nom": "Ectoplasma",
-    "image": "imageEctoplasma1",
-    "rareté": "épique"
+  {
+    "id": "1f8siorap",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "onix": {
-    "nom": "Onix",
-    "image": "imageOnix1",
-    "rareté": "peu-commune"
+  {
+    "id": "yy2onmc4n",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "soporifik": {
-    "nom": "Soporifik",
-    "image": "imageSoporifik1",
-    "rareté": "commune"
+  {
+    "id": "ruvf62mu2",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "hypnomade": {
-    "nom": "Hypnomade",
-    "image": "imageHypnomade1",
-    "rareté": "rare"
+  {
+    "id": "aw0tbk9jm",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "krabby": {
-    "nom": "Krabby",
-    "image": "imageKrabby1",
-    "rareté": "commune"
+  {
+    "id": "k8pg6azgu",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "krabboss": {
-    "nom": "Krabboss",
-    "image": "imageKrabboss1",
-    "rareté": "peu-commune"
+  {
+    "id": "ovkhkgfh9",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "voltorbe": {
-    "nom": "Voltorbe",
-    "image": "imageVoltorbe1",
-    "rareté": "peu-commune"
+  {
+    "id": "66pyko2av",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "electrode": {
-    "nom": "Électrode",
-    "image": "imageElectrode1",
-    "rareté": "rare"
+  {
+    "id": "z4i3fpxho",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "noeunoeuf": {
-    "nom": "Noeunoeuf",
-    "image": "imageNoeunoeuf1",
-    "rareté": "commune"
+  {
+    "id": "fzey88cot",
+    "rarity": "uncommon",
+    "foil": null
   },
-  "noadkoko": {
-    "nom": "Noadkoko",
-    "image": "imageNoadkoko1",
-    "rareté": "rare"
+  {
+    "id": "cqfsoed6l",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "pi6gni4qu",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "w9ej6l305",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "9q9xmoknt",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "pmgy7waam",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "j5tqmul3n",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "f7wsczwje",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "cmmb2tylb",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "a2tv1pm6z",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "xpshf6r1s",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "ixpkwu9in",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "gcikvg1h4",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "vovp9trz5",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "s7dyw7ehl",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "fkvrwvzov",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "mgb6rxtjb",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "423r5f274",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "k0q140qjt",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "3xe56o8f3",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "g5qo4lorw",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "bapgjg68y",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "yz2il6sby",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "phd35qx7z",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "mnsqgki1t",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "3et8q79zo",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "zutvp5ouw",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "jjw6l5erb",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "jkvjjbfig",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "zsk8iysa3",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "iogojphkg",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "0e2uh2a1j",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "kvqzo2656",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "oiw46y0wp",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "6e88clnr2",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "k0z0vkove",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "pa28h5vdt",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "woszxqho5",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "60qip5lm0",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "d5sovxdam",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "se9ntspwr",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "9n4y6mdno",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "ql8j23ghk",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "b0w3w3s9c",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "r8n5vgpdp",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "oorukjv56",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "2vip7nv6p",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "ftye2u335",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "tddfj6vj7",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "ff87yc9ro",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "msj6f4zub",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "qo7z9t0oi",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "l7lco8c5p",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "g0hxydjiz",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "nqc39p77y",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "66glrmtny",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "cdfbno8f3",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "howrla0ti",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "21zjkt4vt",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "y3knohu3v",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "paejfawce",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "tscy7o6yf",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "aix6ii9ed",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "0i7rqwmc1",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "2vhm59b2l",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "zot2f7g0y",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "w5fsvdln8",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "jj0xbelfm",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "rg0zxqaga",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "swj12njdh",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "9teh1bl42",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "yg5qvgp8w",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "zeeghjhrt",
+    "rarity": "common",
+    "foil": null
   }
-}
+]
