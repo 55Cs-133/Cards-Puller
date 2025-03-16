@@ -6,22 +6,28 @@ export const CardSchema = z.object({
   foil: z.boolean().nullable(),
 }).strict();
 
-export const RarityRatesSchema = z.record(z.number());
-
 export const FoilSchema = z.object({
   percentage: z.number(),
   max: z.number(),
 }).strict();
 
+export const FixedCardSchema = z.record(z.number());
+
+export const RarityRateSchema = z.record(z.number()).refine(
+  (data) => Object.keys(data).length >= 2,
+  {
+    message: 'Un taux de rareté doit contenir au moins deux entrées.',
+  },
+);
+
 export const SettingsSchema = z.object({
-  common: z.number(),
-  uncommon: z.number(),
-  rare: z.number(),
-  eleventh: RarityRatesSchema,
   foil: FoilSchema,
-}).passthrough();
+}).catchall(
+  z.union([z.number(), RarityRateSchema]),
+);
 
 export type Card = z.infer<typeof CardSchema>;
-export type RarityRates = z.infer<typeof RarityRatesSchema>;
 export type Foil = z.infer<typeof FoilSchema>;
+export type FixedCard = z.infer<typeof FixedCardSchema>;
+export type RarityRate = z.infer<typeof RarityRateSchema>;
 export type Settings = z.infer<typeof SettingsSchema>;
