@@ -11,7 +11,10 @@ export const FoilSchema = z.object({
   max: z.number(),
 }).strict();
 
-export const FixedCardSchema = z.record(z.number());
+export const FixedCardSchema = z.object({
+  key: z.string(),
+  value: z.number(),
+});
 
 export const RarityRateSchema = z.record(z.number()).refine(
   (data) => Object.keys(data).length >= 2,

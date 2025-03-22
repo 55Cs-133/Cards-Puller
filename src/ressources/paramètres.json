@@ -1,9 +1,11 @@
 {
-  "booster": {
+  "fixedCards": {
     "common": 6,
     "uncommon": 3,
     "rare": 1,
-    "superRare": 5,
+    "superRare": 5
+  },
+  "rarityRates":{
     "eleventh": {
       "rare": 50,
       "superRare": 50
@@ -36,10 +38,11 @@
       "mythic":65,
       "superRare":25,
       "uncommon": 10
-    },
-    "foil": {
-      "percentage": 20,
-      "max": 4
     }
+  },
+  "foil": {
+    "percentage": 20,
+    "max": 4
   }
+
 }
