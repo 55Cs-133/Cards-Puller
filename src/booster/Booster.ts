@@ -1,65 +1,33 @@
-import { remove, times } from 'lodash-es';
+import { shuffle, remove, times } from 'lodash-es';
 import { z } from 'zod';
 
 import rawCards from '../ressources/cartes.json';
 import rawSettings from '../ressources/paramètres.json';
-import { CardSchema, SettingsSchema, Card, Settings, Foil, RarityRates } from './types';
+import { CardSchema, Card, Foil, FoilSchema, RarityRate, RarityRateSchema, FixedCard, FixedCardSchema } from './types';
 
-// type Card = { id: string; rarity: string; foil: boolean | null };
-
-// type RarityRates = Record<string, number>;
-// type Foil = { percentage: number; max: number };
-
-// type Settings = {
-//   common: number;
-//   uncommon: number;
-//   rare: number;
-//   eleventh: RarityRates;
-//   twelfth: RarityRates;
-//   foil: Foil;
-//   [key: string]: RarityRates | Foil | number;
-// };
-
-const parsedSettings = SettingsSchema.parse(rawSettings.booster);
-
-const parsedCards = z.array(CardSchema).parse(rawCards);
-
-const settings = parsedSettings;
-
-const cards: Card[] = parsedCards;
+const parsedCardsPool: Card[] = z.array(CardSchema).parse(rawCards);
+const parsedRarityRates: RarityRate[] = z.array(RarityRateSchema).parse(Object.values(rawSettings.rarityRates));
+const parsedFixedCards: FixedCard[] = z.array(FixedCardSchema).parse(Object.entries(rawSettings.fixedCards).map(([key, value]) => ({ key, value })));
+const parsedFoil: Foil = FoilSchema.parse(rawSettings.foil);
 
 export default class Booster {
-  private settings = settings;
-  private fixCardsPool = Object.values(cards);
-  private cardsPool = [...this.fixCardsPool];
-  public pickedCards: Card[] = [];
+  private cardsPool = [...parsedCardsPool];
+  private foil = { ...parsedFoil };
+  private rarityRates = [...parsedRarityRates];
+  private fixedCards = [...parsedFixedCards];
+  private pickedCards: Card[] = [];
+  private finalCards: Card[] = [];
 
-  // public get pickedCard(): Card[] {
-  // }
-
-  applyFoil(card: Card, foilSettings: Foil) {
-    if (Math.floor(Math.random() * 100) <= foilSettings.percentage) {
-      return { ...card, foil: true };
-    } else { return card; }
+  constructor() {
+    this.drawFixedCards();
+    this.drawRatedCards();
+    this.applyFoil();
   }
 
-  drawCard(rarity: string, pool: Card[], foilSettings: Foil) {
-    const theRarityPool = pool.filter((cards) => cards.rarity === rarity);
-    const lenght = theRarityPool.length;
-    const random = Math.floor(Math.random() * lenght);
-    const flatPickedCard = theRarityPool[random];
-    const pickedCard = this.applyFoil(flatPickedCard, foilSettings);
-    remove(this.cardsPool, (card: Card) => card.id === pickedCard.id);
-    this.rawPickedCards.push(pickedCard);
-  }
-
-  pickRarity(rates: RarityRates) {
+  pickRarity(rates: RarityRate) {
     const rarityEntries = Object.entries(rates);
-
     const rateSum = rarityEntries.reduce((sum, [, rate]) => sum + rate, 0);
-
     let random = Math.floor(Math.random() * rateSum);
-
     const selectedRarity = rarityEntries.reduce((acc, [rarity, rate]) => {
       if (acc) return acc;
       random -= rate;
@@ -69,33 +37,56 @@ export default class Booster {
     return selectedRarity;
   };
 
-  constructor() {
-    this.processSettings(this.settings);
+  logFinalCards() {
+    console.log('Final cards:');
+    console.table(this.finalCards);
   }
 
-  private processSettings(settings: Settings): Record<string, any> {
-    const result: Record<string, any> = {};
-
-    Object.entries(settings).forEach(([key, value]) => {
-      result[key] = this.processSetting(key, value);
-    });
-    return result;
+  obtainCards() {
+    return this.finalCards;
   }
 
-  private processSetting(key: string, value: number | RarityRates | Foil | null) {
-    if (typeof value === 'number') {
-      times(value, () => this.drawCard(key, this.cardsPool, this.settings.foil));
-    } else if (typeof
-    value === 'object'
-    && value !== null
-    && Object.values(value).every((value) => typeof value === 'number')
-    && !('percentage' in value && 'max' in value)) {
-      this.drawCard(this.pickRarity(value), this.cardsPool, this.settings.foil);
+  drawCard(rarity: string | null) {
+    if (rarity === null) {
+      console.warn('Rarity is NULL');
+      return;
     }
-    return value;
+    const theRarityPool = this.cardsPool.filter((cards) => cards.rarity === rarity);
+    const lenght = theRarityPool.length;
+    const random = Math.floor(Math.random() * lenght);
+    const pickedCard = theRarityPool[random];
+    remove(this.cardsPool, (card: Card) => card.id === pickedCard.id);
+    this.pickedCards.push(pickedCard);
   }
 
-  logPickedCardsWithoutFoil() {
-    console.table(this.rawPickedCards);
+  drawFixedCards() {
+    this.fixedCards.forEach((fixedCard) => times(fixedCard.value, () => this.drawCard(fixedCard.key)));
+  }
+
+  drawRatedCards() {
+    this.rarityRates.forEach((rarityRate) => this.drawCard(this.pickRarity(rarityRate)));
+  }
+
+  mayBeFoil() {
+    return Math.floor(Math.random() * 100) < this.foil.percentage;
+  }
+
+  applyFoil() {
+    const alreadyFoiledCard = [...this.pickedCards.filter((card) => card.foil === true)].length;
+    if (alreadyFoiledCard >= this.foil.max) {
+      return;
+    }
+    const foilAvailable = this.foil.max - alreadyFoiledCard;
+    const nonFoilPickedCards = [...this.pickedCards.filter((card) => card.foil !== true)];
+    const candidatesCards = shuffle(nonFoilPickedCards.filter(() => this.mayBeFoil()));
+    const cardsToFoil
+    = candidatesCards.length <= foilAvailable
+      ? candidatesCards
+      : candidatesCards.slice(0, foilAvailable);
+    this.finalCards = this.pickedCards.map((card) =>
+      cardsToFoil.some((selected) => selected.id === card.id)
+        ? { ...card, foil: true }
+        : card,
+    );
   }
 }

@@ -4,7 +4,7 @@ export const CardSchema = z.object({
   id: z.string(),
   rarity: z.string(),
   foil: z.boolean().nullable(),
-}).strict();
+}).passthrough();
 
 export const FoilSchema = z.object({
   percentage: z.number(),

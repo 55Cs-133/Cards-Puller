@@ -1,11 +1,11 @@
 import './App.css';
-import newBooster from './booster/newBooster';
+import Shop from './booster/Shop.tsx';
+// import Booster from './booster/Booster';
 
-const x = new newBooster();
-x.log();
 function App() {
   return (
     <>
+      <Shop />
     </>
   );
 }
