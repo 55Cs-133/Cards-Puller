@@ -1,0 +1,602 @@
+[
+  {
+    "id": "C-S1-001",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-002",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-003",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-004",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-005",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-006",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-007",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-008",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-009",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-010",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-011",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-012",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-013",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-014",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-015",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-016",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-017",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-018",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-019",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-020",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-021",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-022",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-023",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-024",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-025",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-026",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-027",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-028",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-029",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-030",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-031",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-032",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-033",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-034",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-035",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-036",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-037",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-038",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-039",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-040",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-041",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-042",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-043",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-044",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-045",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-046",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-047",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-048",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-049",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-050",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-051",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-052",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-053",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-054",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-055",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-056",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-057",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-058",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-059",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "C-S1-060",
+    "rarity": "common",
+    "foil": null
+  },
+  {
+    "id": "U-S1-061",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-062",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-063",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-064",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-065",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-066",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-067",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-068",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-069",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-070",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-071",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-072",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-073",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-074",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-075",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-076",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-077",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-078",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-079",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-080",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-081",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-082",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-083",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-084",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-085",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-086",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-087",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-088",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-089",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "U-S1-090",
+    "rarity": "uncommon",
+    "foil": null
+  },
+  {
+    "id": "R-S1-091",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-092",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-093",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-094",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-095",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-096",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-097",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-098",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-099",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-100",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-101",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-102",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-103",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-104",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "R-S1-105",
+    "rarity": "rare",
+    "foil": null
+  },
+  {
+    "id": "SR-S1-106",
+    "rarity": "superRare",
+    "foil": true
+  },
+  {
+    "id": "SR-S1-107",
+    "rarity": "superRare",
+    "foil": true
+  },
+  {
+    "id": "SR-S1-108",
+    "rarity": "superRare",
+    "foil": true
+  },
+  {
+    "id": "SR-S1-109",
+    "rarity": "superRare",
+    "foil": true
+  },
+  {
+    "id": "SR-S1-110",
+    "rarity": "superRare",
+    "foil": true
+  },
+  {
+    "id": "SR-S1-111",
+    "rarity": "superRare",
+    "foil": true
+  },
+  {
+    "id": "SR-S1-112",
+    "rarity": "superRare",
+    "foil": true
+  },
+  {
+    "id": "SR-S1-113",
+    "rarity": "superRare",
+    "foil": true
+  },
+  {
+    "id": "SR-S1-114",
+    "rarity": "superRare",
+    "foil": true
+  },
+  {
+    "id": "SR-S1-115",
+    "rarity": "superRare",
+    "foil": true
+  },
+  {
+    "id": "M-S1-116",
+    "rarity": "mythic",
+    "foil": true
+  },
+  {
+    "id": "M-S1-117",
+    "rarity": "mythic",
+    "foil": true
+  },
+  {
+    "id": "M-S1-118",
+    "rarity": "mythic",
+    "foil": true
+  },
+  {
+    "id": "M-S1-119",
+    "rarity": "mythic",
+    "foil": true
+  },
+  {
+    "id": "M-S1-120",
+    "rarity": "mythic",
+    "foil": true
+  }
+]

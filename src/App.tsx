@@ -1,5 +1,5 @@
 import './App.css';
-import Shop from './booster/Shop.tsx';
+import Shop from './cardsPool/Shop.tsx';
 // import Booster from './booster/Booster';
 
 function App() {
